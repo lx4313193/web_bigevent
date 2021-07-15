@@ -28,7 +28,7 @@ $(function(){
                 if(res.status !== 0){
                     return layui.layer.msg("更新密码失败!");
                 }
-                layui.lay.msg("更新密码成功!");
+                layui.layer.msg("更新密码成功!");
                 // 重置表单  ( 表单的 reset 方法 )
                 $(".layui-form")[0].reset();
             }
